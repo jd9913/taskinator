@@ -1,5 +1,7 @@
 var formEl = document.querySelector("#task-form");//finds the <form> element in the page and saves it to the variable formEl
 var tasksToDoEl = document.querySelector("#tasks-to-do");
+var taskIdCounter = 0;
+
 
 var taskFormHandler = function (event) {
 
